@@ -3,7 +3,6 @@ import './App.css';
 import { string } from 'prop-types';
 
 function Form() {
-  const [obj, setObj] = useState<{name: string, lastname: string}>({name: '', lastname: ''});
   const [value, setValue] = useState<string>('');
   const [list, setList] = useState<string[]>([]);
 
